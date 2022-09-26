@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
     <link rel="icon" type="image/png" href="./assets/images/favicon.png">
@@ -12,80 +13,94 @@
 
 </html>
 
-<body class="body">
-    <header class="header">
+<body class="container-fluid" id="body">
+    <header class="container-fluid" id="header">
     
-        <div class="outerDiv">
-        <div class="innerDiv">
-            <a title="Logo DISS" href="./index.html"><img src="./assets/images/Logo-DISS.png" id="logo-header"></a>
+        
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-2"><a title="Logo DISS" href="./index.html"><img src="./assets/images/Logo-DISS.png" id="logo-header" class="banners"></a></div>
+            <div class="col-5"></div>
         </div>
-        </div>
+        
     </header>
 
-    <nav class="nav">
-        <div id="menu-outer" class="container" >
-            <div class="botonera">
-              <ul id="horizontal-list">
-                <li class="boton">
-                    <a href="./pages/page-2.html" rel="nofollow">HISTORIA</a>
-                </li>
+    <nav class="container-fluid" id="nav">
+        
+        
+            <div class="row">
+                   <div class="col-1"></div>
+                   <div class="col-10">
+                    
+                        <ul id="horizontal-list" class="row">
+                            <li id="boton-decor">
+                                <a href="./pages/page-2.html" class="boton">HISTORIA</a>
+                            </li>
+                            
+                    
+                            <li id="boton-decor">
+                                <a href="./pages/page-3.html" class="boton">JUGADORES</a>
+                            </li>
+                    
+                                
+                            <li id="boton-decor">
+                                <a href="./pages/page-4.html" class="boton">STAFF</a>
+                            </li>
+                    
+                                
+                            <li id="boton-decor">
+                                <a href="./pages/contacto.html" class="boton">CONTACTO</a>
+                            </li>   
                 
-        
-                <li class="boton">
-                    <a href="./pages/page-3.html">JUGADORES</a>
-                </li>
-        
+                    </ul>
+                    </div>
                     
-                <li class="boton">
-                    <a href="./pages/page-4.html" >STAFF</a>
-                </li>
-        
-                    
-                <li class="boton">
-                    <a href="./pages/contacto.html" >CONTACTO</a>
-                </li>   
-    
-        </ul></br>
-    </div>
-  </div>   
+                    <div class="col-1"></div>
+                </div>
+            </div>
+          
     </nav>
 
-    <main class="main">
-        <section class="section">
-            <div class="outerDiv">
-                <div class="innerDiv">
-                    <a title="Previa DISS" href=".\index.html"><img src="./assets/images/banner-home-previa.jpg" id="banner-previa"></a>
-                </div>
-                </div>
+    <main class="container" id="main">
+        <section class="container" id="section">
 
-                <div class="outerDiv">
-                    <div class="innerDiv">
-                        <a title="Fecha DISS" href=".\index.html"><img src="./assets/images/banner-home-fecha.jpg" id="banner-fixture"></a>
-                    </div>
-                    </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10"><img src="./assets/images/banner-home-previa.jpg" id="banner-previa"></a></div>
+                <div class="col-1"></div>    
+            </div>
 
-                    <div class="outerDiv">
-                        <div class="innerDiv">
-                            <div id="titulo">Mundial de Clubes | Cuartos de Final</div>
-                        </br>
-                            <iframe width="646" height="315" src="https://www.youtube.com/embed/TuXpax1M5TI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        </div>
-
+        
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10"><img src="./assets/images/banner-home-fecha.jpg" id="banner-fixture"></a>
+                <div class="col-1"></div>    
+            </div>
         </section>
+        
+        <article class="container" id="article">
+
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10"><iframe id="youtube-main" src="https://www.youtube.com/embed/TuXpax1M5TI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="col-1"></div>    
+            </div>
+            
+        </article>
+
+
+        
     </main>
     
-    <footer class="footer">
-        <div id="footer-home" title="Home"><a href="./index.html" >🏠</a></div>
-        <div class="outerDiv">
-            <div class="innerDiv">
-            Todos los derechos se encuentran reservados, los izquierdos también.
-            </div>
-        </div>
-        <div id="footer-rrss" title="RRSS DISS"><img src="./assets/images/rrss-logos.png" id="rrss-logos"></div>
-    
+    <footer class="container-fluid" id="footer">
+        <div class="row">
+        <div class="col-2" id="footer-home" title="Home"><a href="./index.html">🏠</a></div>
+        <div class="col-8" id="footer-text">-Todos los derechos se encuentran reservados, los izquierdos también-</div>
+        <div class="col-2" id="footer-rrss" title="RRSS DISS"><img src="./assets/images/rrss-logos.png" id="rrss-logos"></div>
+    </div>
         </footer>    
-
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 
 

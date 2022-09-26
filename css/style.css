@@ -3,60 +3,59 @@
 * {
     Margin:0;
     padding:0;
-    
+     
  }
 
- .body{
-    background-color: whitesmoke;
+ #body{
+    width: 100vw;
+    height: 100vh;
     
     
 }
  
- .header{
-    width: 100%;
-    height: 100px;
-    align-items: center;
+ #header{
+
+    height: 12vh;
+    padding-top: 1.6vh;
+    padding-bottom: 1.6vh;
     background-color: #98C5E9;
     color: #1D1838;
  }
 
- .innerDiv {
-    display: table;
-    margin: 0 auto;
-    padding-top: 10px;
-    font-family: 'Anton', serif;
-    
-    }
-    
-    .outerDiv {
-    width:100%;
-    font-family: 'Anton', serif;
-    }
 
-.nav{
-        width: 100%;
-        height: 100%;
+
+#nav{
+    padding-top: 1.6vh;
         background-color: #98C5E9;
         color: #1D1838;
         
         
      }
 
-.main{
-    width: 100%;
-    height: 100%;
+#main{
+    padding-top: 1.6vh;
+    padding-bottom: 1.6vh;
  }
 
-.section{
-    background-color: whitesmoke;
-    padding-top: 10px;
-    padding-bottom: 10px;
+#section{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
  }
 
-.footer{
-    width: 100%;
-    height: 100px;
-    padding-top: 10px;
+ #article{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+ }
+
+
+#footer{
+    height: 15vh;
     background-color: #98C5E9;
     
     
@@ -64,187 +63,177 @@
  }
 
 /* -------------------CONTACT------------------- */
-.form {
-    width: 50vw;
-    height: 60vh;
-    margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+#form-padding-ch {
+    padding-left: 32vh;
+}
 
+#form-padding-bt {
+    padding-top: 2vw;
+    padding-left: 28vh;
     
 }
-#li-form {
-    list-style:none;
-
-}
-
 
 #reset {
-    padding: 10px 10px 10px 10px;
-
+    
+    
 }
 
 #enviar {
-    padding: 10px 10px 10px 10px;
-}
-
-.fieldset {
-    padding: 10px 10px 10px 10px;
-    font-family: 'Anton', serif;
-    color: #1D1838;
     
-}
+    }
 
-.legend {
-    padding: 10px 10px 10px 10px;
-    font-family: 'Anton', serif;
-    color: #1D1838;
-    font-size: 20px;
-}
+/* -------------------LOGO------------------- */
 
-/* -------------------BOTONERA y LOGO------------------- */
+
 #logo-header {
-    width: 70px; 
-    height: 70px
+    width: 5vw; 
+    height: 11vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
 }
 
-#menu-outer {
-	height: auto;
+.banners{
+    outline: 2px dashed white;
+    box-shadow: 0 0 0 2px black;
+    padding: 0px 0px 0px 2px;
     
+ }
 
-}
-
-.boton {
-    font-family: 'Anton', serif;
-    color: #1D1838;
-    font-size: 25px;
-    font-weight: 500;
-    padding: 0.5em 1.2em;
-    background: #98C5E9;
-    border: 2px solid;
-    border-color: #98C5E9;
-    position: relative;
-  }
-  .boton:before {
-    font-family: 'Anton', serif;
-    content:"";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 0px;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    transition: all 4s ease;
-  }
-  .boton:hover:before {
-  width: 100%;
-  }
-
-ul#horizontal-list {
-	list-style: none;
-	padding-top: 10px;
-    font-size: 1.5rem;
-    color: #1D1838;
-    
-	}
-	ul#horizontal-list li {
-		display: inline;
-	}
-
-.container a {
-        color: #1D1838;
-        text-decoration: none;
-      }
-
-/* -------------------BOTONERA SIN ANIMACIÓN------------------- */
-
-      .botonera {
-        display: table;  
-        margin: 0 auto;
-        color: #1D1838;
+ @keyframes animateBorder {
+    to {
+      outline-color: black;
+      box-shadow: 0 0 0 2px white;
     }
+  }
+
+  .banners{
+    outline: 2px dashed white;
+    box-shadow: 0 0 0 2px black;
+    padding: 0px 0px 0px 2px;
+    animation: 1s animateBorder infinite;
+
     
-    #boton-indiv {
+}
+
+
+/* -------------------BOTONERA------------------- */
+
+    .boton {
         font-family: 'Anton', serif;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+        color: #1D1838;
+        font-size: 1.3rem;
+        padding: 0.5em 1.2em;
+        background: #98C5E9;
+        border: 2px solid;
+        border-color: #98C5E9;
+        position: relative;
+        
+      }
+      .boton:before {
+        font-family: 'Anton', serif;
+        content:"";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 0px;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        transition: all 4s ease;
+        
+      }
+      .boton:hover:before {
+      width: 100%;
+      
+      }
+    
+    ul#horizontal-list {
+        list-style: none;
+        padding-top: 1.6vh;
+        font-size: 1.5rem;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        color: #1D1838;
 
-/* -------------------CUERPO------------------- */
+        
+        
+        }
+        ul#horizontal-list li {
+            display: inline;
+        }
+    
+    #boton-decor a {
+            color: #1D1838;
+            text-decoration: none;
+            
+          }
+
+/* -------------------CUERPO INDEX------------------- */
 #banner-previa {
-    width: 646px; 
-    height: 367px;
+    width: 47vw; 
+    height: 58vh;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #banner-fixture {
-    width: 646px; 
-    height: 209px;
+    width: 47vw; 
+    height: 33vh;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#titulo {
-    font-family: 'Anton', serif;
-    font-size: 20px;
-    color: #1D1838;
-
+#youtube-main {
+    width: 47vw;
+    height: 50vh;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#rrss-logos {
-    width: 243; 
-    height: 43px
-}
+/* -------------------CUERPO OTROS------------------- */
 
-.container_flex {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    padding-top: 10px;
-    width: 50vw;
-    height: 100vh;
     
-    
-
-
-}
-
-.container_flex_staff{
-    width: 20%;
-    margin: 0 auto;
-    border: 2px solid whitesmoke;
-    text-align: center;
-    
-
-
-}
-    
-.cuerpo-historia {
+#cuerpo-historia {
     width: 50%;
     margin: 0 auto;
     text-align: justify;
+    
 }
 
 /* -------------------PIE------------------- */
 
 
 #footer-home {
+    padding-top: 1.6vh;
     font-family: 'Anton', serif;
     font-size: 12px;
     color: #1D1838;
-    float: left;
-    padding-left: 20px;
-}
 
-#footer-cont {
-    font-family: 'Anton', serif;
-    font-size: 12px;
-    color: #1D1838;
-    align-items: center;
 }
 
 #footer-rrss {
+    padding-top: 1.6vh; 
+    
+
+}
+
+#footer-text {
+    padding-top: 1.6vh;
     font-family: 'Anton', serif;
     font-size: 12px;
     color: #1D1838;
-    float: right;
-    padding-right: 20px;
+    text-align: center; 
 
+}
+
+#rrss-logos {
+    width: 14vw; 
+    height: 5.6vh;
 }
