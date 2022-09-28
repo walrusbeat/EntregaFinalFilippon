@@ -86,11 +86,10 @@
 
 
 #logo-header {
-    width: auto;
-    height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 30%;
     
     
     
