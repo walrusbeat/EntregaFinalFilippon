@@ -153,13 +153,13 @@
     ul#horizontal-list {
         list-style: none;
         padding-top: 1.6vh;
-        font-size: 1.5rem;
+        
         display: table;
         margin-left: auto;
         margin-right: auto;
         color: #1D1838;
         max-width: 100%;
-        width: 80%;
+        width: 60%;
         
 
         
