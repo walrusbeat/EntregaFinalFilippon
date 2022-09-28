@@ -173,27 +173,24 @@
 
 /* -------------------CUERPO INDEX------------------- */
 #banner-previa {
-    width: 47vw; 
-    height: 58vh;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
 }
 
 #banner-fixture {
-    width: 47vw; 
-    height: 33vh;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
 }
 
 #youtube-main {
-    width: 47vw;
-    height: 50vh;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
 }
 
 /* -------------------CUERPO OTROS------------------- */
