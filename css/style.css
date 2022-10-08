@@ -15,7 +15,7 @@
  
  #header{
 
-    height: 12vh;
+    height: 18vh;
     padding-top: 1.6vh;
     padding-bottom: 1.6vh;
     background-color: #98C5E9;
@@ -118,19 +118,42 @@
 
     
 }
-
-
 /* -------------------BOTONERA------------------- */
+#back-color-btn-nav {
+    background-color: #98C5E9!important;    
+    
+    
+}
+
+#back-color-btn-div {
+    font-family: 'Anton', serif;
+    background: #98C5E9;
+   
+}
+
+#back-color-btn-search {
+    font-family: 'Anton', serif;
+    color:white;
+    border-color: white;
+   
+}
+
+
+
+
+
+/* -------------------BOTONERA VIEJA------------------- */
 
     .boton {
         font-family: 'Anton', serif;
         color: #1D1838;
         font-size: 1.3rem;
-        padding: 0.5em 1.2em;
+        padding: 0.2em 0.5em;
         background: #98C5E9;
         border: 2px solid;
         border-color: #98C5E9;
         position: relative;
+        
         
       }
       .boton:before {
@@ -159,7 +182,7 @@
         margin-right: auto;
         color: #1D1838;
         max-width: 100%;
-        width: 60%;
+        width: 50%;
         
 
         
