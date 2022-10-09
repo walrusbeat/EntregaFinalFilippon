@@ -1,0 +1,140 @@
+@-webkit-keyframes animateBorder {
+  to {
+    outline-color: black;
+    -webkit-box-shadow: 0 0 0 2px white;
+            box-shadow: 0 0 0 2px white;
+  }
+}
+@keyframes animateBorder {
+  to {
+    outline-color: black;
+    -webkit-box-shadow: 0 0 0 2px white;
+            box-shadow: 0 0 0 2px white;
+  }
+}
+.banners {
+  outline: 2px dashed white;
+  -webkit-box-shadow: 0 0 0 2px black;
+          box-shadow: 0 0 0 2px black;
+  padding: 0px 0px 0px 2px;
+  -webkit-animation: 1s animateBorder infinite;
+  animation: 1s animateBorder infinite;
+}
+
+#header {
+  height: 18vh;
+  padding-top: 1.6vh;
+  padding-bottom: 1.6vh;
+  background-color: #98C5E9;
+  color: #1D1838;
+}
+#header nav {
+  padding-top: 1.6vh;
+  background-color: #98C5E9;
+  color: #1D1838;
+}
+#header #logo-header {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 60px;
+}
+
+#back-color-btn-nav {
+  background-color: #98C5E9 !important;
+}
+#back-color-btn-nav #back-color-btn-div {
+  font-family: "Anton", serif;
+  background: #98C5E9;
+}
+#back-color-btn-nav #back-color-btn-search {
+  font-family: "Anton", serif;
+  color: white;
+  border-color: white;
+}
+
+#main {
+  height: 800px;
+  padding-top: 1.6vh;
+  
+}
+
+#main section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main article {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+
+#banner-previa {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 60%;
+}
+
+#banner-fixture {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 60%;
+}
+
+#youtube-main {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 180%;
+}
+
+#cuerpo-historia {
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+#form-padding-ch {
+  padding-left: 32vh;
+}
+
+#form-padding-bt {
+  padding-top: 2vw;
+  padding-left: 28vh;
+}
+
+#footer {
+  height: 15vh;
+  background-color: #98C5E9;
+}
+#footer #footer-home {
+  padding-top: 1.6vh;
+  font-family: "Anton", serif;
+  font-size: 12px;
+  color: #1D1838;
+}
+#footer #footer-rrss {
+  padding-top: 1.6vh;
+}
+#footer #footer-text {
+  padding-top: 1.6vh;
+  font-family: "Anton", serif;
+  font-size: 12px;
+  color: #1D1838;
+  text-align: center;
+}
+#footer #rrss-logos {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 80%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

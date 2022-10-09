@@ -1,0 +1,19 @@
+@-webkit-keyframes animateBorder {
+    to {
+      outline-color: black;
+      box-shadow: 0 0 0 2px white;
+    }
+  }
+  @keyframes animateBorder {
+    to {
+      outline-color: black;
+      box-shadow: 0 0 0 2px white;
+    }
+  }
+  .banners {
+    outline: 2px dashed white;
+    box-shadow: 0 0 0 2px black;
+    padding: 0px 0px 0px 2px;
+    -webkit-animation: 1s animateBorder infinite;
+            animation: 1s animateBorder infinite;
+  }

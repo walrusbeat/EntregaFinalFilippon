@@ -1,265 +1,144 @@
-/* -------------------ESTRUCTURA------------------- */
-
-* {
-    Margin:0;
-    padding:0;
-     
- }
-
- #body{
-    width: 100vw;
-    height: 100vh;
-    
-    
+#header {
+  height: 18vh;
+  padding-top: 1.6vh;
+  padding-bottom: 1.6vh;
+  background-color: #98C5E9;
+  color: #1D1838;
 }
- 
- #header{
-
-    height: 18vh;
-    padding-top: 1.6vh;
-    padding-bottom: 1.6vh;
-    background-color: #98C5E9;
-    color: #1D1838;
- }
-
-
-
-#nav{
-    padding-top: 1.6vh;
-    background-color: #98C5E9;
-    color: #1D1838;
-        
-        
-     }
-
-#main{
-    padding-top: 1.6vh;
-    padding-bottom: 1.6vh;
- }
-
-#section{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-
- }
-
- #article{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-
- }
-
-
-#footer{
-    height: 15vh;
-    background-color: #98C5E9;
-    
-    
-    
- }
-
-/* -------------------CONTACT------------------- */
-#form-padding-ch {
-    padding-left: 32vh;
+#header nav {
+  padding-top: 1.6vh;
+  background-color: #98C5E9;
+  color: #1D1838;
 }
-
-#form-padding-bt {
-    padding-top: 2vw;
-    padding-left: 28vh;
-    
-}
-
-#reset {
-    
-    
-}
-
-#enviar {
-    
-    }
-
-/* -------------------LOGO------------------- */
-
 
 #logo-header {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    width: 60px;
-    
-    
-    
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 60px;
 }
 
-.banners{
-    outline: 2px dashed white;
-    box-shadow: 0 0 0 2px black;
-    padding: 0px 0px 0px 2px;
-    
- }
-
- @keyframes animateBorder {
-    to {
-      outline-color: black;
-      box-shadow: 0 0 0 2px white;
-    }
+@keyframes animateBorder {
+  to {
+    outline-color: black;
+    box-shadow: 0 0 0 2px white;
   }
-
-  .banners{
-    outline: 2px dashed white;
-    box-shadow: 0 0 0 2px black;
-    padding: 0px 0px 0px 2px;
-    animation: 1s animateBorder infinite;
-
-    
 }
-/* -------------------BOTONERA------------------- */
+.banners {
+  outline: 2px dashed white;
+  box-shadow: 0 0 0 2px black;
+  padding: 0px 0px 0px 2px;
+  -webkit-animation: 1s animateBorder infinite;
+          animation: 1s animateBorder infinite;
+}
+
 #back-color-btn-nav {
-    background-color: #98C5E9!important;    
-    
-    
+  background-color: #98C5E9 !important;
 }
 
 #back-color-btn-div {
-    font-family: 'Anton', serif;
-    background: #98C5E9;
-   
+  font-family: "Anton", serif;
+  background: #98C5E9;
 }
 
 #back-color-btn-search {
-    font-family: 'Anton', serif;
-    color:white;
-    border-color: white;
-   
+  font-family: "Anton", serif;
+  color: white;
+  border-color: white;
 }
 
+#main {
+  height: 800px;
+  padding-top: 1.6vh;
+  
+}
+#main section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main article {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  
+}
 
-
-
-
-/* -------------------BOTONERA VIEJA------------------- */
-
-    .boton {
-        font-family: 'Anton', serif;
-        color: #1D1838;
-        font-size: 1.3rem;
-        padding: 0.2em 0.5em;
-        background: #98C5E9;
-        border: 2px solid;
-        border-color: #98C5E9;
-        position: relative;
-        
-        
-      }
-      .boton:before {
-        font-family: 'Anton', serif;
-        content:"";
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 0px;
-        height: 100%;
-        background: rgba(255, 255, 255, 0.1);
-        transition: all 4s ease;
-        
-      }
-      .boton:hover:before {
-      width: 100%;
-      
-      }
-    
-    ul#horizontal-list {
-        list-style: none;
-        padding-top: 1.6vh;
-        
-        display: table;
-        margin-left: auto;
-        margin-right: auto;
-        color: #1D1838;
-        max-width: 100%;
-        width: 50%;
-        
-
-        
-        
-        }
-        ul#horizontal-list li {
-            display: inline;
-        }
-    
-    #boton-decor a {
-            color: #1D1838;
-            text-decoration: none;
-            
-          }
-
-/* -------------------CUERPO INDEX------------------- */
 #banner-previa {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    width: 60%;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 60%;
 }
 
 #banner-fixture {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    width: 60%;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 60%;
 }
 
 #youtube-main {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    width: 60%;
-    height: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 180%;
 }
 
-/* -------------------CUERPO OTROS------------------- */
-
-    
 #cuerpo-historia {
-    width: 50%;
-    margin: 0 auto;
-    text-align: justify;
-    
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
 }
 
-/* -------------------PIE------------------- */
+#cuerpo-historia {
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+}
 
+#form-padding-ch {
+  padding-left: 32vh;
+}
+
+#form-padding-bt {
+  padding-top: 2vw;
+  padding-left: 28vh;
+}
+
+#footer {
+  height: 15vh;
+  background-color: #98C5E9;
+}
 
 #footer-home {
-    padding-top: 1.6vh;
-    font-family: 'Anton', serif;
-    font-size: 12px;
-    color: #1D1838;
-
+  padding-top: 1.6vh;
+  font-family: "Anton", serif;
+  font-size: 12px;
+  color: #1D1838;
 }
 
 #footer-rrss {
-    padding-top: 1.6vh; 
-    
-
+  padding-top: 1.6vh;
 }
 
 #footer-text {
-    padding-top: 1.6vh;
-    font-family: 'Anton', serif;
-    font-size: 12px;
-    color: #1D1838;
-    text-align: center; 
-
+  padding-top: 1.6vh;
+  font-family: "Anton", serif;
+  font-size: 12px;
+  color: #1D1838;
+  text-align: center;
 }
 
 #rrss-logos {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    width: 80%;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 80%;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */
