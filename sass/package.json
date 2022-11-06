@@ -9,7 +9,7 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
   },
-  "author": "",
+  "author": "Leandro Filippon",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.3",
